@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap');
+* {
+    
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    text-align: center;
+    margin:0;
+    padding:0px;
+    padding-bottom: 30px;
+    background: #777;
+    color:white;
+}
+#cart{
+    position:fixed;
+    height:95%;
+}
+
+header h1{
+    font-size: 80px;
+    padding:50px;
+}
+header ul{
+    display:flex;
+    padding:10px;
+    font-size: 20px;
+    font-weight: 200;
+    justify-content: center;
+    list-style-type: none;
+    border-bottom: 0.1rem solid white;
+    position:fixed;
+    top:0%;
+    background: blueviolet;
+    width:100%;
+    z-index:1;
+}
+header li{
+    margin:0px 40px;
+}
+header li a{
+    text-decoration: none;
+    color:white;
+}
+section h2{
+    font-family:"Metal Mania";
+    text-align: center;
+    padding:20px;
+    font-size: 30px;
+}
+.container{
+    max-width:900px;
+    margin:0 auto;
+    padding:20px 30px;
+}
+#Groceries{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+#Groceries div{
+    margin:30px;
+}
+#Groceries div h3{
+    display:block;
+    width:100%;
+    text-align:center;
+    font-size: 30px;
+    color:white;
+    margin-bottom: 20px;
+}
+#Groceries.prod-details{
+    display:flex;
+    margin:10px;
+    align-items: center;
+    justify-content: space-between;
+}
+#Groceries.shop-item{
+    cursor: pointer;
+    padding:10px;
+    color:white;
+    border:none;
+    font-size: 20px;
+    font-weight:200;
+    border-radius: 4%;
+    background: blueviolet;
+}
+#Groceries.shop-item:hover, #merch-content.shop-item{
+    background: blueviolet;
+}
+
+
+#merch-content{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+#merch-content div{
+    margin:30px;
+}
+#merch-content div h3{
+    display:block;
+    width:100%;
+    text-align:center;
+    font-size: 30px;
+    color:white;
+    margin-bottom: 20px;
+}
+#merch-content.prod-details{
+    display:flex;
+    margin:10px;
+    align-items: center;
+    justify-content: space-between;
+}
+#merch-content.shop-item{
+    cursor: pointer;
+    padding:10px;
+    color:white;
+    border:none;
+    font-size: 20px;
+    font-weight:200;
+    border-radius: 4%;
+    background: blueviolet;
+}
+#merch-content.shop-item:hover, #merch-content.shop-item{
+    background: blueviolet;
+}
+    
